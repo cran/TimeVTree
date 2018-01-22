@@ -1,0 +1,7 @@
+exportPattern("^[[:alpha:]]+")
+  importFrom("grDevices", "dev.list", "dev.off", "graphics.off", "pdf")
+  importFrom("graphics", "axis", "lines", "par", "plot", "polygon",
+             "text", "title")
+  importFrom("stats", "as.formula")
+  importFrom("survival", "coxph", "coxph.detail")
+
