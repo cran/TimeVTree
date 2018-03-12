@@ -4,4 +4,4 @@ exportPattern("^[[:alpha:]]+")
              "text", "title")
   importFrom("stats", "as.formula")
   importFrom("survival", "coxph", "coxph.detail")
-
+  importFrom("stats", "pchisq")

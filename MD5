@@ -1,5 +1,5 @@
-d2edb53a3b8292d97e5d7d8116bcc297 *DESCRIPTION
-8ceedbbdfdc0fc41ecfc6dd3c22ea940 *NAMESPACE
+4d912413351fa3d5991ea2e838d908fc *DESCRIPTION
+54448f0814e3a466df2d8d4b9728d300 *NAMESPACE
 e4b8a46a4eb27519c79e10b9d1c10ab4 *R/boot.coxfit.R
 0439b6bb0f5271e85f1d4a49201744bb *R/bootstrap.R
 20f7dba89bb3760d92c99f73bde62b6b *R/coxph.tree.R
@@ -8,6 +8,7 @@ a1d502f0a036197aab07b72d0ae41ceb *R/elbow.tree.R
 43c91af0215d766501b7acbb9e9c7168 *R/free.R
 b661985241440bb905aa1b135c491f96 *R/infmul.R
 d06c964e44f484d9025fc8f7c3afac63 *R/mat.tvbeta.R
+4af0390ec3889c219fd55d15d665d770 *R/optimal.cutpoint.R
 addc89bc8ea451782f80b04363badd8a *R/output.coxphout.R
 cb6bb71ce54a6d29a245e6e04eedb709 *R/plot_coxphtree.R
 7a6d4cce3ec148156290ff59c90561cb *R/prune.R
@@ -17,10 +18,11 @@ c72793e9619a6a92ee9f90fb5fc8fb49 *R/xname.R
 73cd3531dac0f38cf7a5aaa472ee0e91 *data/alcohol.RData
 8cc573d451bfe18d53efcfcfbcb18568 *man/alcohol.Rd
 37d7658a7a4d91d3771bb03c83093c5b *man/bootstrap.Rd
-ceb86628c1a2813f2dd5a25f49fd3c58 *man/coxph.tree.Rd
+9cbf11a80079bc2c72441beaa49742f9 *man/coxph.tree.Rd
 5ad0d995c5a90a3c744ca102167705e8 *man/elbow.tree.Rd
 47ce78d42f10f1636d88a8035b59d3d6 *man/final.tree.Rd
 fa0a6689bd0e91bb516414a04beebfec *man/mat.tvbeta.Rd
+e7fec5a39d73c204e8486e45e7e61101 *man/optimal.cutpoint.Rd
 0f679149e614949431511387d84d88a0 *man/output.coxphout.Rd
 137ae37810df0d8e87219971057d654c *man/plot_coxphtree.Rd
 8400072d3ced2c80ebebabda2c56932a *man/prune.Rd

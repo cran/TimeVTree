@@ -2,13 +2,13 @@ Package: TimeVTree
 Type: Package
 Title: Survival Analysis of Time Varying Coefficients Using a
         Tree-Based Approach
-Version: 0.2.1
-Date: 2018-01-19
+Version: 0.3.1
+Date: 2018-03-12
 Authors@R: c(
     person("Sudeshna", "Adak", role = "aut"),
     person("Ronghui", "Xu", role = "aut"),
     person("Euyhyun", "Lee", role = c("trl", "cre"),email = "e4lee@ucsd.edu"),
-    person("Steve", "Edland", role = "ctb"),
+    person("Steven", "Edland", role = "ctb"),
     person("Lon", "White", role = "ctb"))
 Imports: survival, grDevices, graphics, stats
 Description: Estimates time varying regression effects under Cox type models in
@@ -23,12 +23,12 @@ Description: Estimates time varying regression effects under Cox type models in
 License: GPL-2
 RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2018-01-19 22:04:19 UTC; e4lee
+Packaged: 2018-03-12 17:41:37 UTC; e4lee
 Author: Sudeshna Adak [aut],
   Ronghui Xu [aut],
   Euyhyun Lee [trl, cre],
-  Steve Edland [ctb],
+  Steven Edland [ctb],
   Lon White [ctb]
 Maintainer: Euyhyun Lee <e4lee@ucsd.edu>
 Repository: CRAN
-Date/Publication: 2018-01-22 09:39:22 UTC
+Date/Publication: 2018-03-12 18:01:06 UTC

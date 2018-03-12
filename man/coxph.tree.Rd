@@ -49,7 +49,7 @@ coxph.tree(survtime, survstatus, x, D = 3, method = "breslow", minfail = 10,
 \code{coxph.tree} takes in survival time, survival status, and covariates to grow the full tree. 
 It follows one of the stopping rules: 1) when the pre-specified depth is reached, or 2) the number of events in a node is less than a prespecified number, or 3) the maximized score statistic is less than a default value (0.0001).
 
- Currently data need to be arranged in descending order of time and with no missing. 
+ Currently, data need to be arranged in descending order of time and with no missing. 
 }
 \value{
 \code{coxph.tree} returns an object of class 'coxphtree.'
@@ -63,6 +63,14 @@ An object of class 'coxphtree' is a list containing the following components:
 \item{breakpt}{Starting point of each node. Starting point of node at Depth= 0 to maximum Depth = D+1 is shown.}
 \item{ntree}{Number of cases in each node}
 \item{nevent}{Number of events in each node}
+\item{nblocks}{Number of blocks in each depth}
+\item{nodes}{Indicator that indicates whether the block was eligible for further split}
+\item{nodetree}{A table with depth, block, node, left right, maximum score, start time, end time, # of cases, and # of events}
+\item{scoretest}{Maximum score at each block}
+\item{xnames}{Name of predictors}
+\item{failtime}{The time when events occurred without duplicates}
+\item{summary}{\code{coxph} output of each block}
+\item{pvalue}{p-value to test validity of a change point against none}
 }
 \references{
 Xu, R. and Adak, S. (2002), Survival Analysis with Time-Varying Regression Effects Using a Tree-Based Approach. Biometrics, 58: 305-315.
